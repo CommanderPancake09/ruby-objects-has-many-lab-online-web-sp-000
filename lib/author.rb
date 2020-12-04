@@ -3,7 +3,7 @@ require 'pry'
 class Author
   attr_accessor :name
 
-  @@all =[]
+  @@all = []
 
   def initialize(name)
     @name = name
